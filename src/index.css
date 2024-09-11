@@ -1,0 +1,87 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.f-grow {
+    flex: 1;
+    min-height: 0px;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+input.ng-invalid-required {
+    border: 1px solid #ff000075;
+}
+
+.dropdown-menu {
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+/*.btn {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+}*/
+
+.selected-row {
+    background-color: #d9edf7;
+}
+
+.progress-bar-vertical {
+  width: 20px;
+  min-height: 200px;
+  margin-right: 10px;
+  float: left;
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  align-items: flex-end;
+  -webkit-align-items: flex-end; /* Safari 7.0+ */
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+
+.modal-body-500-restrict{
+    height:500px;
+}
+
+.bar-text {
+    width: 20px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.bar{
+    background: linear-gradient(to top, green 49px, yellow 59px, yellow 77px, red 87px); 
+}
+
+.selected-channel {
+    border:3px solid #dee2e6 !important;
+    opacity:0.4;
+}
+
+.selected-row {
+    background-color: #d9edf7 !important; 
+}
+
+.container {
+    width: 500px;
+    clear: both;
+  }
+  
+.container input {
+    width: 100%;
+    clear: both;
+  }
