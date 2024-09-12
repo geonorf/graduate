@@ -73,8 +73,10 @@ class WebControl extends React.Component {
 
   get_card_data = () => {
     fetch("/webControl/card/", {
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
+        "X-CSRFToken": cookies.get("csrftoken"),
       },
       credentials: "same-origin",
     })
